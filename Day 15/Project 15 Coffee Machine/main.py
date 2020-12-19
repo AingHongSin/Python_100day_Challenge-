@@ -77,7 +77,9 @@ def main():
             for item in Local_resources:
                 print(f"{item} : {resources[item]}")
             print(f"Money: ${Money}")
-        else:
+        elif coffee == 'off':
+            Processing = False
+        elif coffee in Local_resources:
             coffee_Mechin_Processing(coffee)
             
 
