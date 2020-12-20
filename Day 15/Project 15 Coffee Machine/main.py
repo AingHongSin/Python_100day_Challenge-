@@ -79,7 +79,7 @@ def main():
             print(f"Money: ${Money}")
         elif coffee == 'off':
             Processing = False
-        elif coffee in Local_resources:
+        elif coffee == Local_resources[]:
             coffee_Mechin_Processing(coffee)
             
 
