@@ -6,8 +6,8 @@ import pandas
 now = dt.datetime.now()
 THIS_MONTH =now.month
 TODAY = now.day
-SENDER = 'einoyakoreal@gmail.com'
-PASSWORD = 'Ainghongsin'
+SENDER = 'YOUR EMAIL
+PASSWORD = 'YOUR PASSWORD'
 PERSONAL_BIRTH = (THIS_MONTH, TODAY)
 
 first_minute = now.minute
