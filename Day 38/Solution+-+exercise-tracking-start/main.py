@@ -2,6 +2,7 @@
 ## Run this project
 ## DATA HAS BEEN STORED IN LINK: https://docs.google.com/spreadsheets/d/1eXarLyPOCmXbpzjy49ggKimYEH3BAaIW8ZI0mOsAGf0/edit#gid=0
 
+import os
 import requests
 import datetime
 
@@ -10,16 +11,17 @@ TODAY = today.strftime('%d/%m/%Y')
 TIME_NOW = today.strftime("%X")
 
 
-EMAIL = "ainghongsin9999@gmail.com"
+EMAIL = os.environ.get("MY_EMAIL")
 PROFECT_NAME = "My Workouts"
 USER_NAME = "AING HONGSIN"
 
-ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
+ENDPOINT = os.environ.get("MYNUTRITIONIX_ENDPOINT")
+print(ENDPOINT)
 
-APP_ID = "f5993e34"
-API_KEY = "61f2a99c2b38a748bf5f486fd6e24ab0"
+APP_ID = os.environ.get("MY_APP_ID")
+API_KEY = os.environ.get("MY_API_KEY")
 
-GENDER = "male"
+GENDER = os.environ.get("MY_GENDER")
 WEIGHT_KG = "60"
 HEIGHT_CM = "170"
 AGE = "18"
@@ -62,7 +64,7 @@ for exercise in data["exercises"]:
     }
 
     # SHEELY_ENDPOINT = f"https://api.sheety.co/{USER_NAME}/{PROFECT_NAME}/workouts"
-    SHEELY_ENDPOINT = "https://api.sheety.co/2d0507519de57998fa6115e50b8fa641/myWorkouts/workouts"
+    SHEELY_ENDPOINT = os.environ.get("MY_SHEELY_ENDPOINT")
 
 
     response = requests.post(url=SHEELY_ENDPOINT, json=PARAMETER, headers = SHEET_HEARDER)
