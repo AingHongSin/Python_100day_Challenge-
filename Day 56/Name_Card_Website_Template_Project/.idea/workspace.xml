@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53000193-6be9-408a-b97f-7f66f53184b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Day 56.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Name_Card_Website_Template_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Source_Day56/.idea/Source_Day56.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Source_Day56/static/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Source_Day56/static/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Source_Day56/static/images/pic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Source_Day56/static/images/pic02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Source_Day56/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Source_Day56/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/.idea/Day 39.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/Solution+-+flight-deals-end/data_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/Solution+-+flight-deals-end/flight_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/Solution+-+flight-deals-end/flight_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/Solution+-+flight-deals-end/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/Solution+-+flight-deals-end/notification_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/flight-deals-start/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/flight-deals-start/.idea/flight-deals-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/flight-deals-start/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/flight-deals-start/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/flight-deals-start/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/flight-deals-start/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/flight-deals-start/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/flight-deals-start/data_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/flight-deals-start/flight_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/flight-deals-start/flight_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/flight-deals-start/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/flight-deals-start/notification_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 40-(skip)/flight-deals-start/data_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 40-(skip)/flight-deals-start/flight_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 40-(skip)/flight-deals-start/flight_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 40-(skip)/flight-deals-start/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 40-(skip)/flight-deals-start/notification_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Source_Day56/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1otLFoa2ouJFRyHtmHtayhYbOoB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template" />
+      <recent name="$PROJECT_DIR$/startic" />
+      <recent name="$PROJECT_DIR$/../server.py" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.server">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Name_Card_Website_Template_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../server.py/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Name_Card_Website_Template_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server.pv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Name_Card_Website_Template_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.pv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.server.pv" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53000193-6be9-408a-b97f-7f66f53184b6" name="Default Changelist" comment="" />
+      <created>1614100838768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614100838768</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
