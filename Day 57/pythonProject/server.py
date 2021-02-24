@@ -1,7 +1,7 @@
 import random
 import datetime
 from flask import Flask, render_template
-from api import API
+import api
 
 
 app = Flask(__name__)
@@ -16,12 +16,15 @@ def home_page():
 
 @app.route('/guess/<name>')
 def guess_page(name):
-    api = API(name)
-    gender = api.gender_request()
-    age = api.age_request()
+    gender = api.gender_request(name)
+    age = api.age_request(name)
     return render_template("guess.html", name=name.title(), gender=gender, age=age)
 
-
+@app.route("/blog/<num>")
+def get_blog(num):
+    print(num)
+    post = api.blog_request()
+    return render_template('blog.html', post=post)
 
 if __name__ == '__main__':
     app.run(debug=True)
