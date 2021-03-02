@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb704fe8-edeb-4422-8c11-07c60a44a3ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 57/pythonProject/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day 57/pythonProject/templates/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/.idea/Day 39.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Day 39-(skip)/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
@@ -33,6 +32,10 @@
       <change beforePath="$PROJECT_DIR$/../../Day 40-(skip)/flight-deals-start/flight_search.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Day 40-(skip)/flight-deals-start/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Day 40-(skip)/flight-deals-start/notification_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 57/pythonProject/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day 57/pythonProject/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 57/pythonProject/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day 57/pythonProject/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 57/pythonProject/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day 57/pythonProject/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
