@@ -1,32 +1,48 @@
 body {
   font-family: "Montserrat";
   font-weight: 400;
+  text-align: center;
 }
 
-h1 {
+
+
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat';
+  font-weight: bold;
+
+}
+
+
+/* Heading Section  */
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.heading-title {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+
 }
 
-h2 {
-  font-family: "Montserrat";
-  font-size: 3rem;
-  font-weight: bold;
-  line-height: 1.5
-}
-
+/* Container */
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
-#title {
+.colored-section {
   background-color: #ff4c68;
   color: #fff;
+
 }
 
+.white-section {
+  background-color: #fff;
+}
 
+/* Navbar */
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -45,6 +61,14 @@ h2 {
   margin: 5% 3% 5% 0;
 }
 
+/* Title  Section */
+#title {
+  text-align: left;
+}
+#title.container-fluid {
+  padding: 3% 15% 7%;
+}
+
   /* Navegation Bar */
 .navbar-brand {
   font-family: "Ubuntu";
@@ -61,23 +85,20 @@ h2 {
 
 }
 
-h3 {
-  font-family: "Montserrat";
-  font-weight: bold
-}
 p {
   color: #8f8f8f;
 }
 
 /* Features Section */
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
+.feature-title {
+  font-size: 1.5rem;
+}
 
 .feature-box  {
-  text-align: center;
   padding: 5%
 }
 
@@ -92,9 +113,12 @@ p {
 
 /* Testimonials Section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .carousel-item {
@@ -109,7 +133,6 @@ p {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 .press-logo {
@@ -120,14 +143,34 @@ p {
  /* Pricing Section */
 #pricing {
   padding: 100px;
-  text-align: center;
-  position: fix;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricingcard-column {
   padding: 3% 2%;
 }
 
+
+/* Call of Action  */
+
+
+/* Footer Section */
+#footer {
+  margin: 5% 7%;
+}
+
+.footer-icon {
+  color: black;
+  margin: 2% 1%;
+}
+
+.footer-icon:hover {
+  color: black;
+}
 
 
 @media (max-width: 1028px) {
@@ -141,16 +184,4 @@ p {
     position: static;
   }
 
-}
-
-/* Call of Action  */
-#cta {
-  text-align: center;
-  background-color: #ff4c68;
-  padding: 5%;
-}
-
-.title-at-cta {
-  font-size: 2.5rem;
-  color: #fff;
 }
