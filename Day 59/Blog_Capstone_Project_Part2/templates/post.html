@@ -1,0 +1,45 @@
+  <!-- Navigation -->
+
+  {% include 'header.html' %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('static/img/post-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            {% for post in data_post %}
+              {% if post['id'] == id %}
+                <h1>{{ data_post['title']}}</h1>
+                <h2 class="subheading">{{ data_post['subtitle']}}</h2>
+                <span class="meta">Posted by
+                  <a href="#">{{ data_post['author']}}</a>
+                  {{ data_post['date']}}</span>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            {% for post in data_post %}
+              {% if post['id'] == id %}
+                {{ post['body'] }}
+              {% endif %}
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+{% include 'footer.html' %}
