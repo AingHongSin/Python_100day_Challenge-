@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import requests
+import emailSending
 
 posts = requests.get("https://api.npoint.io/43644ec4f0013682fc0d").json()
 
@@ -27,18 +28,20 @@ def about():
     return render_template("about.html")
 
 
-@app.route("/contact")
+@app.route('/contact', methods=('GET', 'POST'))
 def contact():
-    return render_template("contact.html")
+    if request.method == "POST":
+        print(request.form['Name'])
+        print(request.form['Email-Address'])
+        print(request.form['Phone-Number'])
+        print(request.form['Message'])
+        emailSending.sending(name=request.form['Name'], email=request.form['Email-Address'], phoneNumber=request.form['Phone-Number'], message=request.form['Message'])
+        return  render_template('contact.html', sent=True)
+    return render_template('contact.html', sent=False)
 
-@app.route('/form-entry', methods=['POST'])
-def receive_data():
-    print(request.form['Name'])
-    print(request.form['Email-Adress'])
-    print(request.form['Phone-Number'])
-    print(request.form['Message'])
 
-    return  "<h1>Successfully sent your message.</h1>"
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
